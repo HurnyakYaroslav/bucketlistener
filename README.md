@@ -28,4 +28,7 @@ spring:
       location: file:C:\\Users\\USER_NAME\\AppData\\Roaming\\gcloud\\application_default_credentials.json
 ```
 
-Additional documentation about GCP bucket notifications: https://cloud.google.com/sdk/gcloud/reference/storage/buckets/notifications/create#--event-types
+Additional documentation 
+about GCP bucket notifications: https://cloud.google.com/sdk/gcloud/reference/storage/buckets/notifications/create#--event-types
+about Spring messages handling: https://spring.io/guides/gs/messaging-gcp-pubsub/
+about configuring cloud functions: https://thedeveloperstory.com/2020/07/23/triggering-cloud-storage-with-cloud-functions-in-java/

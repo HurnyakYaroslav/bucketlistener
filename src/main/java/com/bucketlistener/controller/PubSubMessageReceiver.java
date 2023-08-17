@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 class PubSubMessageReceiver {
 
-    @ServiceActivator(inputChannel = "pubsubInputChannel")
+//    @ServiceActivator(inputChannel = "pubsubInputChannel")
     public void receiveMessage(
             Message<String> message,
             @Header(GcpPubSubHeaders.ORIGINAL_MESSAGE) BasicAcknowledgeablePubsubMessage pubsubMessage) {

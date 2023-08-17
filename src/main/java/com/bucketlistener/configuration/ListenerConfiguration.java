@@ -9,6 +9,7 @@ import org.springframework.cloud.gcp.pubsub.integration.AckMode;
 import org.springframework.cloud.gcp.pubsub.integration.inbound.PubSubInboundChannelAdapter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.integration.annotation.ServiceActivator;
 import org.springframework.integration.channel.DirectChannel;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.MessageHandler;
@@ -42,8 +43,8 @@ public class ListenerConfiguration {
         return adapter;
     }
 
-//    @Bean
-//    @ServiceActivator(inputChannel = "pubsubInputChannel")
+    @Bean
+    @ServiceActivator(inputChannel = "pubsubInputChannel")
     public MessageHandler messageReceiver() {
         return message -> {
             StorageObject storageObject;

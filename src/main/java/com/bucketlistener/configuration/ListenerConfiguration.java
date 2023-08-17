@@ -1,4 +1,4 @@
-package com.faxlistener.configuration;
+package com.bucketlistener.configuration;
 
 import java.io.IOException;
 
@@ -14,13 +14,13 @@ import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.MessageHandler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.faxlistener.dto.StorageObject;
+import com.bucketlistener.dto.StorageObject;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Configuration
 @Slf4j
-public class FaxListenerConfiguration {
+public class ListenerConfiguration {
 
     @Value("${gcp.topic.subscription.name}")
     private String subscriptionName;

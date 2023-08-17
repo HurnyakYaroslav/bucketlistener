@@ -1,4 +1,4 @@
-package com.faxlistener.dto;
+package com.bucketlistener.dto;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;

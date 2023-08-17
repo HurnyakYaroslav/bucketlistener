@@ -1,4 +1,4 @@
-package com.faxlistener;
+package com.bucketlistener;
 
 import java.io.IOException;
 
@@ -6,10 +6,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MainClass {
+public class ListenerApplication {
 
     public static void main(String[] args) throws IOException {
-        SpringApplication.run(MainClass.class, args);
+        SpringApplication.run(ListenerApplication.class, args);
     }
 
 }

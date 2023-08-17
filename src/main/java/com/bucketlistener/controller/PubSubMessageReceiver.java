@@ -1,4 +1,4 @@
-package com.faxlistener.controller;
+package com.bucketlistener.controller;
 
 import java.io.IOException;
 
@@ -10,7 +10,7 @@ import org.springframework.messaging.Message;
 import org.springframework.messaging.handler.annotation.Header;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.faxlistener.dto.StorageObject;
+import com.bucketlistener.dto.StorageObject;
 
 import lombok.extern.slf4j.Slf4j;
 

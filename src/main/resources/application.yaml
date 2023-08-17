@@ -1,0 +1,7 @@
+
+spring:
+  cloud:
+    gcp:
+      project-id: plenary-treat-396208
+      credentials:
+        location: file:/Users/yaroslav_hurniak/.config/gcloud/application_default_credentials.json

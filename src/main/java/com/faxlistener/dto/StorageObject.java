@@ -1,4 +1,4 @@
-package com.faxlistener.model;
+package com.faxlistener.dto;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;
@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class StorageObject {
+
     @SerializedName("kind")
     private String kind;
 

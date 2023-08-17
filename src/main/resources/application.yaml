@@ -5,3 +5,7 @@ spring:
       project-id: plenary-treat-396208
       credentials:
         location: file:/Users/yaroslav_hurniak/.config/gcloud/application_default_credentials.json
+gcp:
+  topic:
+    subscription:
+      name: projects/plenary-treat-396208/subscriptions/subs1
